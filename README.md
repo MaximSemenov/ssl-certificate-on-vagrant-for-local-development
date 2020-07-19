@@ -59,5 +59,6 @@ where **example.com** is my project directory
         Redirect permanent / https://example.com
 </VirtualHost>
 ```
-We just said to Apache if someone comes via **http** redirect them to *https://example.com*
+We just said to Apache if someone comes via **http** redirect them to *example.com*
 
+One more thing here: make sure you undestand that *example.com* is just a dummy url please replace *example.com* with you own domain for example *hello.com*
