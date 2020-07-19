@@ -25,7 +25,7 @@ You will see something like **LibreSSL 2.6.5** if you have it installed
 
 where **example.com** is my project directory
 
-5) Find or if it does not exist this clock `<VirtualHost *:443> HERE IN BETWEEN VirtualHost TAGS SHOULD BE RULES FOR YOUR HTTPS </VirtualHost>
+5) Find or if it does not exist this clock `<VirtualHost *:443> HERE IN BETWEEN VirtualHost TAGS SHOULD BE RULES FOR YOUR HTTPS </VirtualHost>`
 
 ```
 <VirtualHost *:443>
