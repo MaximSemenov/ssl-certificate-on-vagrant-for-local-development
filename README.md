@@ -11,10 +11,10 @@ You will see something like **LibreSSL 2.6.5** if you have it installed
 
 `openssl genrsa -out ./vagrant/example.com.key 2048`
 
-**./vagrant/** - directory I have my project in; 
+- **./vagrant/** - directory I have my project in; 
 
-**example.com** - your local domain name that 
+- **example.com** - your local domain name that 
 
-notice **.key** extention - it is just a filename with *.key* extention
+- notice **.key** extention - it is just a filename with *.key* extention
 
 
