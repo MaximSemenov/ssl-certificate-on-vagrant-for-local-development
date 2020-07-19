@@ -50,3 +50,14 @@ where **example.com** is my project directory
 
 </VirtualHost>
 ```
+6) Now Apache server knows what to do with **https** requests let's explain it how to seal with **http**. Add another *<VirtualHost>* block of code bu this time with port 80 (if you already have block **<VirtualHost *:80>** edit it)
+
+```
+<VirtualHost *:80>
+        ServerName example.com
+        DocumentRoot "/app/htdocs"
+        Redirect permanent / https://example.com
+</VirtualHost>
+```
+We just said to Apache if someone comes via **http** redirect them to *https://example.com*
+
