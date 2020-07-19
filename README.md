@@ -17,4 +17,8 @@ You will see something like **LibreSSL 2.6.5** if you have it installed
 
 - notice **.key** extention - it is just a filename with *.key* extention
 
+3) Now we have our key generated let's use the key to generate a certificate 
+
+`openssl req -new -x509 -nodes -key ./vagrant/example.com.key -out ./vagrant/example.com.cert -days 3650 -subj /CN=example.com`
+
 
