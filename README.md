@@ -1,4 +1,5 @@
 # ssl-certificate-on-vagrant-for-local-development
+
 How to install SSL certificate on Vagrant machine for local development in Google Chrome to use HTTPS
 
 1) You need to have the openssl command utility installed. Open terminal and check that out by typing 
